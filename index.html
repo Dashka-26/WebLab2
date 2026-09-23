@@ -3,61 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Тарифні плани</title>
+  <title>Тарифні плани SaaS для команд - Basic, Pro та Enterprise</title>
+  <meta name="description" content="Порівняйте наші тарифні плани. Оберіть оптимальне хмарне рішення з необхідним обсягом сховища та підтримкою для вашого бізнесу.">
+  <link rel="canonical" href="https://github.com/Dashka-26/Web31">
+
   <link rel="stylesheet" href="plan.css">
 </head>
 <body>
 
-<section class="pricing-section">
+<header class="site-header">
   <div class="container">
-    <header class="pricing-header">
-      <h2>Наші тарифи</h2>
-      <p>Оберіть план, який найкраще підходить для ваших завдань</p>
-    </header>
-
-    <div class="pricing-grid">
-      <article class="pricing-card">
-        <h3 class="pricing-card__title">Basic</h3>
-        <div class="pricing-card__price">
-          <span class="amount">$10</span><span class="period">/ month</span>
-        </div>
-        <ul class="pricing-card__features">
-          <li>✓ 1 User</li>
-          <li>✓ 5GB Storage</li>
-          <li>✓ Basic Support</li>
-        </ul>
-        <button class="btn btn-outline">Select</button>
-      </article>
-
-      <article class="pricing-card pricing-card--featured">
-        <div class="badge">PRO • ACTIVE</div>
-        <h3 class="pricing-card__title">Pro</h3>
-        <div class="pricing-card__price">
-          <span class="amount">$29</span><span class="period">/ month</span>
-        </div>
-        <ul class="pricing-card__features">
-          <li>✓ 5 Users</li>
-          <li>✓ 50GB Storage</li>
-          <li>✓ Priority Support</li>
-        </ul>
-        <button class="btn btn-primary">Get Started</button>
-      </article>
-
-      <article class="pricing-card">
-        <h3 class="pricing-card__title">Enterprise</h3>
-        <div class="pricing-card__price">
-          <span class="amount">$99</span><span class="period">/ month</span>
-        </div>
-        <ul class="pricing-card__features">
-          <li>✓ Unlimited</li>
-          <li>✓ 1TB Storage</li>
-          <li>✓ 24/7 Support</li>
-        </ul>
-        <button class="btn btn-outline">Contact</button>
-      </article>
-    </div>
+    <nav class="main-nav">
+      <a href="/">Головна</a>
+      <a href="/pricing">Тарифи</a>
+      <a href="/contacts">Контакти</a>
+    </nav>
   </div>
-</section>
+</header>
+
+<main>
+
+  <div class="container">
+    <h1 class="page-title">Хмарні рішення для вашого бізнесу</h1>
+  </div>
+
+  <section class="pricing-section">
+    <div class="container">
+      <header class="pricing-header">
+        <h2>Наші тарифи</h2>
+        <p>Оберіть план, який найкраще підходить для масштабування ваших завдань</p>
+      </header>
+
+      <div class="pricing-grid">
+        <article class="pricing-card">
+          <h3 class="pricing-card__title">Basic</h3>
+          <div class="pricing-card__price">
+            <span class="amount">$10</span><span class="period">/ місяць</span>
+          </div>
+          <ul class="pricing-card__features">
+            <li>✓ 1 користувач</li>
+            <li>✓ 5GB хмарного сховища</li>
+            <li>✓ Базова підтримка</li>
+          </ul>
+          <a href="/checkout/basic" class="btn btn-outline">Обрати план Basic</a>
+        </article>
+
+        <article class="pricing-card pricing-card--featured">
+          <div class="badge">PRO • ACTIVE</div>
+          <h3 class="pricing-card__title">Pro</h3>
+          <div class="pricing-card__price">
+            <span class="amount">$29</span><span class="period">/ місяць</span>
+          </div>
+          <ul class="pricing-card__features">
+            <li>✓ 5 користувачів</li>
+            <li>✓ 50GB хмарного сховища</li>
+            <li>✓ Пріоритетна підтримка</li>
+          </ul>
+          <a href="/checkout/pro" class="btn btn-primary">Почати роботу з Pro</a>
+        </article>
+
+        <article class="pricing-card">
+          <h3 class="pricing-card__title">Enterprise</h3>
+          <div class="pricing-card__price">
+            <span class="amount">$99</span><span class="period">/ місяць</span>
+          </div>
+          <ul class="pricing-card__features">
+            <li>✓ Необмежена кількість користувачів</li>
+            <li>✓ 1TB хмарного сховища</li>
+            <li>✓ Цілодобова підтримка 24/7</li>
+          </ul>
+          <a href="/contact-sales" class="btn btn-outline">Зв'язатися з відділом продажів</a>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; 2026 Всі права захищено.</p>
+  </div>
+</footer>
 
 </body>
 </html>
